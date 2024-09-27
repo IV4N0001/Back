@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { Product } from "../models/product.entity";
+import { Product } from "../entities/product.entity";
 import { Repository } from "typeorm";
 
 export class ProductController {

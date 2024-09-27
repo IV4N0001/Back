@@ -1,6 +1,6 @@
 import express, { Router } from "express";
 import { ProductController } from "../controllers/product.controller";
-import { Product } from "../models/product.entity"; 
+import { Product } from "../entities/product.entity"; 
 import { AppDataSource } from "../database/connection";
 
 const router = express.Router();
