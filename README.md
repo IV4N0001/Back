@@ -109,7 +109,7 @@ Define la conexion de nuestra base de datos, importamos el archivo /.env/.config
     
 O indicar el directorio de nuestra carpeta en donde se encuentran nuestras entidades:
     
-    entities: ["entities/*.ts"],
+    entities: ["src/entities/*.ts"],
 
 #### 4.3. Carpeta entities
 
